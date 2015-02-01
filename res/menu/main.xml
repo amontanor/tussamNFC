@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/optionShare"
+        android:icon="@drawable/ic_menu_share_holo_dark"
+        android:showAsAction="ifRoom"
+        android:title="+">
+    </item>
+    <item
+        android:id="@+id/optionAdd"
+        android:icon="@drawable/ic_menu_btn_add"
+        android:showAsAction="ifRoom"
+        android:title="+">
+    </item>
+    <item
+        android:id="@+id/OptionRefresh"
+        android:icon="@drawable/ic_menu_btn_refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh">
+    </item>
+
+</menu>

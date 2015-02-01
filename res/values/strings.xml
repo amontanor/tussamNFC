@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Saldo Tussam</string>
+    <string name="hello_world">Acerque la tarjeta al móvil!</string>
+    <string name="action_settings">Settings</string>
+    <string name="localizando">Cargando datos...</string>
+    <string name="titulo">Saldo Tussam NFC</string>
+    <string name="saldo">El saldo actual es: </string>
+    <string name="inserta">Inserte el código de la tarjeta</string>
+    <string name="actualiza">Actualizando datos!</string>
+    <string name="no_internet">Conexión a Internet perdida!</string>
+    <string name="guardarTarjeta">¿Desea agregar la tarjeta en la aplicación?</string>
+    <string name="compartir">Conoce el saldo de tu tarjeta de transporte con esta aplicación: https://play.google.com/store/apps/details?id=dotidapp.saldotussam</string>
+    <string name="textoVacio1">Pulse sobre el botón + e inserte los 12 dígitos de la parte trasera de su tarjeta de transporte!.</string>
+	<string name="textoVacio2">Acerque la tarjeta de transporte al terminal!</string>
+    
+</resources>

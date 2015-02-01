@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:id="@+id/lblSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingEnd="30dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="30dp"
+            android:paddingStart="0dp"
+            android:text="123"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="0dp"
+            android:paddingStart="25dp"
+            android:text="123456789012"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lblId"
+            android:layout_marginLeft="26dp"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/lblCaducidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitulo"
+            android:layout_below="@+id/lblTitulo"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/iconoRefrescar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/iconoBorrar"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/refresh_icon" />
+
+        <ImageView
+            android:id="@+id/iconoBorrar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/iconoBorrar"
+            android:layout_below="@+id/lblCaducidad"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/ic_menu_delete" />
+    </RelativeLayout>
+
+</FrameLayout>
